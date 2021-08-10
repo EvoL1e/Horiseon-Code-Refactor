@@ -33,8 +33,8 @@ body
     color: #d9dcd6;
 }
 
-/*Sets everything within the header's div with padding size, margin size, font family, font size, and sets where the box floats*/
-.header div 
+/*Sets everything within the navigation bar with padding size, margin size, font family, font size, and sets where the box floats*/
+.header nav 
 {
     padding-top: 15px;
     margin-right: 20px;
@@ -44,13 +44,13 @@ body
 }
 
 /*Sets the list style type to none*/
-.header div ul 
+.header nav ul 
 {
     list-style-type: none;
 }
 
 /*Sets lists display, margin size*/
-.header div ul li 
+.header nav ul li 
 {
     display: inline-block;
     margin-left: 25px;
@@ -115,65 +115,22 @@ p
     background-color: #2589bd;
 }
 
-/*Sets the benefit leads class's margin size and color*/
-.benefit-lead 
+/*Sets the article margin size and color*/
+article 
 {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/*Sets the benefit brand's margin size and acolor*/
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*Sets the benefit cost's margin size and color size*/
-.benefit-cost 
-{
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*Sets the benefit lead's header to center align the text and sets the margin size*/
-.benefit-lead h3 
+/*Sets the article header to center align the text and sets the margin size*/
+article h3 
 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*Sets the benefit brand's header to center align the text and sets the margin size*/
-.benefit-brand h3 
-{
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/*Sets the benefit cost's header to center align the text and sets the margin size*/
-.benefit-cost h3 
-{
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/*Sets the benefit lead img's margin, the max width it can have, and the display style*/
-.benefit-lead img 
-{
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/*Sets the benefit brand img's margin, the max width it can have, and the display style*/
-.benefit-brand img 
-{
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/*Sets the benefit cost img's margin, the max width it can have, and the display style*/
-.benefit-cost img 
+/*Sets the article img's margin, the max width it can have, and the display style*/
+article img 
 {
     display: block;
     margin: 10px auto;
@@ -181,29 +138,7 @@ p
 }
 
 /*Sets the search engine optimization's margin size, padding size, height, font, background color, and the color*/
-.search-engine-optimization 
-{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*Sets the margin size, padding size, height, font, background color, and the color for the online reputation management*/
-.online-reputation-management 
-{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*Sets the margin size, padding size, height, font, background color, and the color for the social media marketing*/
-.social-media-marketing 
+section
 {
     margin-bottom: 20px;
     padding: 50px;
@@ -214,39 +149,13 @@ p
 }
 
 /*Sets Search engine optimization's image max height*/
-.search-engine-optimization img 
-{
-    max-height: 200px;
-}
-
-/*Sets Online repution managment's image max height*/
-.online-reputation-management img 
-{
-    max-height: 200px;
-}
-
-/*Sets social media marketing's image max height*/
-.social-media-marketing img 
+section img
 {
     max-height: 200px;
 }
 
 /*Sets the search engine optimization's header's margin size and font size*/
-.search-engine-optimization h2 
-{
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*Sets the online reputation management's header's margin size and font size*/
-.online-reputation-management h2 
-{
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*Sets the social media marketing's header's margin size and font size*/
-.social-media-marketing h2 
+section h2 
 {
     margin-bottom: 20px;
     font-size: 36px;
