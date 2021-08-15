@@ -13,7 +13,7 @@
 
 ## Usage
   If you would like to use Horiseon's website and look at it you can go to this link:
-  www
+  https://evol1e.github.io/Horiseon-Code-Refactor/
 
 ## Credits
   Contributors who have helped me in this project:
